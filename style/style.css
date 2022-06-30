@@ -1,0 +1,106 @@
+/*FRONT PAGE START*/
+/*anchor decoration*/
+a{color: black; text-decoration: none;}
+a:hover{color: brown;}
+
+/*Logo rounded picture*/
+
+.logo{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logopads{
+  padding-left: 5%; 
+ }
+ .box{
+  box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 26px 0px rgba(0,0,0,0.75);
+}
+#hp  {
+  float: right;    
+   margin: 0 0 0 15px;
+  }
+.card{
+    width:300px;
+    height: 320px;
+  }
+  /* On screens that are 992px or less*/
+
+@media screen and (max-width: 992px) {
+  .z{
+    display: block;
+    width: 30%;
+  }
+  .card{
+    width:300px;
+    height: 320px;
+  }
+}
+
+/* On screens that are 600px or less*/
+
+@media screen and (max-width: 600px) {
+  .z{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  h4{
+    font-weight: bold;
+  }
+  .card{
+    width:300px;
+    height: 200px;
+  }
+}
+    /*  carousel start  */
+.carousel {
+  width:1120px;
+  height:360px;
+}
+/*     carousel end  */
+.footer h3 {
+  color: #ffff; 
+}
+
+    /*hovering in cards start*/
+  .hober div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width .5s, height .5s;
+  }
+  
+  .card:hover{
+    transition-duration: .5s;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+   /*hovering in cards end*/
+
+   /*FRONT PAGE END*/
+
+/*------------------------------------SEPERATOR-----------------------------------*/
+
+/*login page start*/
+
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 130vh !important;
+  }
+  .h3{
+    font-weight: 900;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  } 
+  
+/*login page end*/
